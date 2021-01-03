@@ -1,97 +1,647 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
-integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
 
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <link href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+       <!-- navbar Women -->
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Women</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">View all</a></li>
+              <li><a class="dropdown-item" href="#">Shirts & Blouses</a></li>
+              <li><a class="dropdown-item" href="#">Trousers</a></li>
+              <li><a class="dropdown-item" href="#">T-shirts</a></li>
+              <li><a class="dropdown-item" href="#">Dresses</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
+              <li><a class="dropdown-item" href="#">SALES</a></li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+          </li>
+
+           <!-- navbar Men -->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Men</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">View all</a></li>
+              <li><a class="dropdown-item" href="#">Shirts & Blouses</a></li>
+              <li><a class="dropdown-item" href="#">Trousers</a></li>
+              <li><a class="dropdown-item" href="#">T-shirts</a></li>
+              <li><a class="dropdown-item" href="#">Dresses</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">SALES</a></li>
+            </ul>
+          </li>
+                
+          <!-- navbar KIDS -->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-b s-toggle="dropdown"
+              aria-expanded="false">
+              Kids
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">View all</a></li>
+              <li><a class="dropdown-item" href="#">Shirts & Blouses</a></li>
+              <li><a class="dropdown-item" href="#">Trousers</a></li>
+              <li><a class="dropdown-item" href="#">T-shirts</a></li>
+              <li><a class="dropdown-item" href="#">Dresses</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">SALES</a></li>
+            </ul>
+          </li>
+
+          <!-- contact -->
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+
         </div>
+
+          <!-- Search & search box -->
+        
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>  
+        </form>   
+
+<!-- CHECK OUT -->
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+aria-expanded="false"><i class="fas fa-shopping-cart" ></i>
+Check out
+</a>
+
+<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+  <li onlick ="document.getElementById('review1').style.display='none'" style="width:auto"><a class="dropdown-item" href="#">Review items</a></li>
+  <li><a class="dropdown-item" href="#">Check out</a></li>
+</ul>
+</li>
+ 
+<!-- review items form -->
+
+<div id="review1">
+  <form>
+    <div class="container">
+        <span onclick="document.getElementById('review1').style.display='none'">&times;</span>
+      <div class='container'>
+        <p style="text-align: center;"> Do you want to review your selected items now?</p>
+        <div style="display: inline-block;">
+        <button onclick="">Yes</button> 
+        <button onclick="">No</button>
+      </div>
+    </div>
+  </div>
+  </form>
+</div>
+
+  <!-- ACCOUNT -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" onclick="dropDown()" class="dropDown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false"><i class="fa fa-fw fa-user"></i>
+            Account
+        </a>
+
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li onclick="document.getElementById('loginId').style.display='block'" style="width:auto"><a class="dropdown-item" href="#">Log in</a></li>
+        
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+          </ul>
+        </li>
+       </div>
       </nav>
 
-    <!-- carousel -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://i.pinimg.com/originals/e8/7b/4c/e87b4c59ebdf8bb06b867b23ea906c20.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>YEAR END SALE</h5>
-              <p>Enjoy our biggest sale of the year and slurge on your favorites</p>
+        <!-- Log in form -->
+      
+        <div id="loginId" class="modal"> 
+          
+          <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('loginId').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAMFBMVEXBx9D///+9w83Y3OHDydL19vfS1t3q7O/IzdXt7/HN0tnd4OXGy9Tl5+v4+frg4+dnyPTjAAAKUUlEQVR4nN2d28KjKgyFGUTF8/u/7dba/tWWQ0IWSve6mYuZqX5yTEiC+pdfc9cuQ9X01o7GKGNGa/umGpa2my94usr543M3VdboVcql7S+Mraa8oLkI53boNzI324lzI+2HNhdmDsJ5aoyn2QKg2jRTDko4YVdZNt2b0lYd+oWwhG2jkvFekKppoe8EJNzwRHRvSiQkirCuQHhPSFXVoDfDEE4WifeEtBPk3QCE8wBtvgOjGgCTq5iwbvLgPSEbcWcVEublgzCKCOs+Nx+AUUA4Z2+/N6NgPKYTVlfxPRirywmnC/F2pa4daYT1eGUD7tJj2nBMIry0gx4Yk7pqAmF3C96uBMuDT3jZDOpSQjNyCTtzI98mwx2NTMLhzgbcpYeMhHMGE4IvbVnrP4fwzinmLM6EwyAsoIe+pJcchJfssqnSPZxwHu+G+tBIHYxEwvpuIIeIywaNsC2ph76kafMNiXAqEXBFJJkbFMKlTEDilEogLBaQhhgnLGgZ/BZhCxclLBqQghgjLLiL7op21AhhobPoUbEZNUz4A4BRxCBh9wuAsaU/RFj/BqAKb+BChHe/N0NphPbu12bIphD26Ld4hJXswh84+u1FLyF2IdRbmMXSdnU913XXLlvABvYB3mXRR4icRrVqpu+5oJ5QkQ37Q3wTqodwBj668U/mHdK97DH6PYSoWUabmA03GRSkZ7ZxE4K223E+JKNnE+4kxAxCTT7ymzAD0j0UnYSQswndEPk2YcajoRI2iKcpXuBWC3mm66M6CBGONR3YZLg1IyY37fisDkLEk1JOayEnyxTCSv4YzrHCQYht1Pen/SIEmEw0P6ZDAINbf22evgjl5xPJgBDEMUYof0ZiF90l76hf3/eTUPoASfTSJsB0EyaUTzPsZeJD8kXj4xOfCWf4F+RL/Ab6bGSc30i8myGeeIUk3xSfdzYnQvlKIRuEu8Qj5bxinAjlrhkAIKCfnpw2x3cSN6FgJTxKvGKdGvFIKG5C6Tz6kng+PTbigVDehKhMF7F1c2zEA6F4Iv3aMCVLvHU8TKdvQvFaCBqFm+Qj8b0mvgkH4Y+CJtLna0n19kq9X6uItfAl+fb0mxA7RUsFXLj+CMUztNPRlSyxu+9v5XoRyj8aspMCuulfl1KwX8Qm8Ir3339f/EUo/L0vm0UqnB33/FPuI0Xt2F4SL/qvHdaTUO7m5vjwKYK90ZNQ3ick/ieXFvEb6SOhvJPCdt0vwV5pJ5R3CfBUCjnhaw6E4h/D7mg2IXzvb0LA9wIvFpDlYu9XD0KAG1aDARGT377oPwgBR3clEu5r9EYI6BBlEj6GzkaIiCItcRzuJtRGiDi3L5LwsV5shIjQixJXi91mVaCvVeCeRu09S6GSmsrbl6r9uytIaALcxEfl/FcPQkyUHto+hL2Vgiw8Cr8gwt5KYSaa8vw0z7eaV0JU9iQzTT4iuQf+ofW7K8ykpZDnMptQIbzLSoiJRATvakBDZ9vVKFxaBXJFRHWsdTJVmHDZTchuCsuNNysh6reQsykwF+KfAqZv0escxITL19G1An4umH0B/Oq6U8iiXahGRKZcTQo2aynYSIQmdi4KmquN2X4ji4zoQUFsp7/fQ6yJ2Ky5SqG2NLsAGxvYdmZXo8CJlPJ+Ci6E0yt0LqzU1oeOmlUWTiiMjIJXALAKXh1JtGTgKwBYha+hJ9jaZKgAYDIQpiPmKHGQqQpiWkfNVKQiC2OSBzxPmZEsvVQlOYgzlX01+Ll0F7N8Y76ikyN8PXyLszDmK7yMX/Hf0pY6p9YZq4Za9L70JFql8byVz3uwbfEhHa8Yn7syf4O1Dx0KX1OR42KMsyqsje+U1r2jtMnaessFJVFXGx/ppwk8SPWHm6u2m676TNd+fGqB+trCehQXMsYo7yVeOTQh/aUlSndIn3eJ0jXw3KJMIc+eipRBnh8WKQs8Ay5TDfAcv0wtwFiMIqVbXDxNmXrE04Cij8qUBsa1lSmLi00sVBUwvrRIPeNL/8dTzTNG+H+8b3vGeSN2NTqH5K/1itWXudO1Gvsqj/pR5gj4y7dIH4ju6rJI1YugUu1fzkzqiqgtOgXBrWSH3F/eU9qhiO7ztt5RadeBHnLXEnw12sIv0A6qS2jHQ/4h35PBvfwMIH5HO+SQ8teLaxtwF/tStGMeMHPjRr5NCivmrVqnXG6eBYVOj6GLNemf8vFZ3RRbpoUnzgbzXFOB003v6aK7GLXiP+pi0GdTeGkBnhgL24vs+Sd5LkZn4XFFtde/6tNQjy+wuT8pIk6oXzWGiNPUzX10E7GfftWJIppQuJSKdJFiKxy1vkhLYgFNSGzEd8Inr+befWv9UZQB5aq5R7GDcZURJSKctDjrJhL2NfDCCWkitIWz9iVhwSijkxK6qad+aXSSgufcpyq6PfHUoI02IrwyRKpiu2hvHeFYI8Kre6Qq1hTeWtCx/1nIRBOdagL1vGPT6aUYIYVfM1CTPfJx7jR9zwoawsG6+mHb5EcIg3cjhNv/Rwg//i3njpKfIIzeURIyMH+CMHrPTGjF+AVCwl1BgcnmFwgJ9z0FJptfIPz+t5x718onJN675t3ZlE9IvDvP+wPFE5LvP/T5ekonZNxh6bmHtHBCzj2kPj8BunJgspxvx7pL1nPGc8PZtlPuTsq7D9gzFItAnN19lHmns6/CSAHOqNrdvdj3cvucNqw7cHPIE6+QcLe61yvJTGEGy2PdBTy5AULvifKNLjefpzTw1UPeJZ8hBbzYiSlP8FfQzRn0n/nOsW4ajL6QofCZX9hD6PVp3DEYffWjIl0q4gP1Il7u4fcWXYiNmZiX11t46+Ke6r2ZPFpeLOrH9uZ6a+bt6RL5ixLEd1lxT70/nZ1WMgGgyRsITdhGEs4i/BXi9CXH3oGqGZQKeJTTloCXWI/ZozMCx6GkhZl0nhRyhGcO9w6VGKTN57QTs2AIS8bhOJnQg2ndh3gm6DZZXoi6ysIY5qNuj8mnnsGAOUKVFraWMB85LoR+rhtJedA9cnmcq3CmjKYH2DFOrmN1XrRZQJ21jSWQcLwpnLP5eMgcoiHrSPMpZgAhK/qAUHJMq0YCWQ9j/BE8w4YZX0GpSLRBJnXXbqCk/nD9fdwIko6UD6C1HXibnW4hFh0y3E0UP0aGWptL67EiJSfWbWWpCaMJNltCFBAn/2jF3ApEuUHnbhoay0mHZTdgGiE3jUw/soSN7ZumGoahqqqm6a3hp/qmuaPTIrlSywA+/ldiCjO9SCGCMGcpR59STdH0aLxM9UbdEpyXCOIN81Z0PPFJ7DNRRGVaAjKbT2ZjC2NG8zOKfQjiqNi81TkBdicg7nceMhV51GoAmGOYyOYcZUjDhU/pQsVuE6w6Fp6qUG4RYHR6K6jR8YEnsjE/hI2/3yBllBqL9w9NuKqjm0IOPFvBfeg5cijmqTFsytX6aKYcbtdcWS
+              JzO/RU62j9d/2Q5vggKGsezNwtjX3UDfaRKWObpct6SHdFpk/dtctQrVavHY1Rxox2tYarYWk9tj9W/wHyKYDIdACaHQAAAABJRU5ErkJggg==" alt="Avatar" class="avatar" style ="width: 65px;">
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://i.pinimg.com/originals/4c/1f/54/4c1f543f448f651fa3b2e547e162d777.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Limited College Edition</h5>
-              <p>Rock your intellectual, timeless, chic and classic look</p>
+        
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+        
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+                
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://i.pinimg.com/originals/ee/28/d2/ee28d22c60e803ee1ea5a339b24acbf8.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Winter essentials</h5>
-              <p>Pick out you quinessential long sleeves to brace the cold</p>
+        
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('loginId').style.display='none'" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
-          </div>
+          </form>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
+        
+        <!-- <script>
+        // Get the modal
+        var modal = document.getElementById('loginId');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        </script> -->
+
+        <!-- style log in form -->
+
+      <style> 
+        /* body {font-family: Arial, Helvetica, sans-serif;}
+        
+        /* Full-width input fields */
+        input[type=text], input[type=password] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+        }
+        
+        /* Set a style for all buttons */
+        button {
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        button:hover {
+          opacity: 0.8;
+        }
+        
+        /* Extra styles for the cancel button */
+        .cancelbtn {
+          width: auto;
+          padding: 10px 18px;
+          background-color: #f44336;
+        }
+        
+        /* Center the image and position the close button */
+        .imgcontainer {
+          text-align: center;
+          margin: 24px 0 12px 0;
+          position: relative;
+        }
+        
+        img.avatar {
+          width: 40%;
+          border-radius: 50%;
+        }
+        
+        .container {
+          padding: 16px;
+        }
+        
+        span.psw {
+          float: right;
+          padding-top: 16px;
+        }
+        
+        /* The Modal (background) */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+          padding-top: 60px;
+        }
+
+        .modal1 {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          width: auto; /* Full width */
+          height: auto; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          
+        }
+        
+        /* Modal Content/Box */
+        .modal-content {
+          background-color: #fefefe;
+          margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+          border: 1px solid #888;
+          width: 80%; /* Could be more or less, depending on screen size */
+        }
+        
+        /* The Close Button (x) */
+        .close {
+          position: absolute;
+          right: 25px;
+          top: 0;
+          color: #000;
+          font-size: 35px;
+          font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: red;
+          cursor: pointer;
+        }
+        
+        /* Add Zoom Animation */
+        .animate {
+          -webkit-animation: animatezoom 0.6s;
+          animation: animatezoom 0.6s
+        }
+        
+        @-webkit-keyframes animatezoom {
+          from {-webkit-transform: scale(0)} 
+          to {-webkit-transform: scale(1)}
+        }
+          
+        @keyframes animatezoom {
+          from {transform: scale(0)} 
+          to {transform: scale(1)}
+        }
+        
+        /* Change styles for span and cancel button on extra small screens */
+        @media screen and (max-width: 300px) {
+          span.psw {
+             display: block;
+             float: none;
+          }
+          .cancelbtn {
+             width: 100%;
+          }
+        } */
+        </style>
+x
+        <style>
+          .container {
+          padding: 16px;
+        }
+        </style>       
+            
+  <!-- CAROUSEL   -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://i.pinimg.com/originals/e8/7b/4c/e87b4c59ebdf8bb06b867b23ea906c20.jpg" class="d-block w-100"
+          alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>YEAR END SALE</h5>
+          <p>Enjoy our biggest sale of the year and slurge on your favorites</p>
+        </div>
       </div>
-    
+      <div class="carousel-item">
+        <img src="https://i.pinimg.com/originals/4c/1f/54/4c1f543f448f651fa3b2e547e162d777.jpg" class="d-block w-100"
+          alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Limited College Edition</h5>
+          <p>Rock your intellectual, timeless, chic and classic look</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.pinimg.com/originals/ee/28/d2/ee28d22c60e803ee1ea5a339b24acbf8.jpg" class="d-block w-100"
+          alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Winter essentials</h5>
+          <p>Pick out you quinessential long sleeves to brace the cold</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+
+  <br>
+
+  <!-- WOMEN -->
+
+  <div class="container" style="margin: 20px; text-align: center;">
+    <h1 style="font-size: 40px; font-weight: bold;"><a href="#">WOMEN</a></h1>
+  </div>
+
+
+  <div class="products" style="text-align: center; padding: 30px;">
+
+    <div class="card" style="display: inline-block; text-align: center;">
+      <img id="change image"
+        src="https://canifa.s3.amazonaws.com/media/catalog/product/cache_generated/620x/6ds20w011-sy151-2-thumb-.jpg"
+        alt="Denim Jeans" style="width:100%">
+      <h1 style="font-size: 16px ;">Yellow Dress</h1>
+      <p class="price" style="font-size: 16px; ">$19.99</p>
+      <p style="font-size: 16px;"><button>Add to Cart</button></p>
+    </div>
+
+    <div class="card" style="display: inline-block; text-align: center;">
+      <img id ="change image1" 
+        src="https://canifa.s3.amazonaws.com/media/catalog/product/cache_generated/620x/6ot20w005-sm280-2-thumb.jpg"
+        alt="Denim Jeans" style="width:100%">
+      <h1 style="font-size: 16px ;">Wool Jacket</h1>
+      <p class="price" style="font-size: 16px; ">$19.99</p>
+      <p style="font-size: 16px;"><button>Add to Cart</button></p>
+    </div>
+
+    <div class="card" style="display: inline-block; text-align: center;">
+      <img id="change image2"
+        src="https://canifa.s3.amazonaws.com/media/catalog/product/6/t/6th20w007-dm010-2-thumb.jpg" alt="Denim Jeans"
+        style="width:100%">
+      <h1 style="font-size: 16px ;">Dotted Blouse</h1>
+      <p class="price" style="font-size: 16px; ">$19.99</p>
+      <p style="font-size: 16px;"><button>Add to Cart</button></p>
+    </div>
+
+  </div>
+
+  <!-- MEN -->
+
+  <div class="container" style="margin: 20px" ;>
+    <div class="jumbotron" style="text-align: center; ">
+      <h1 style="font-size: 40px; font-weight: bold;"><a href="https://www.google.com">MEN</a></h1>
+
+    </div>
+  </div>
+
+
+  <div class="products" style="text-align: center; padding: 30px;">
+
+    <div class="card" style="display: inline-block; text-align: center;">
+      <img id ="pic1" src="https://canifa.s3.amazonaws.com/media/catalog/product/8/o/8ot20w018-sa509-2-thumb.jpg" alt="Denim Jeans"
+        style="width:100%">
+      <h1 style="font-size: 16px ;">Tailored Jeans</h1>
+      <p class="price" style="font-size: 16px; ">$19.99</p>
+      <p style="font-size: 16px;"><button>Add to Cart</button></p>
+    </div>
+    <div class="card" style="display: inline-block; text-align: center;">
+      <img id="pic2" src="https://canifa.s3.amazonaws.com/media/catalog/product/8/t/8tw20w007-sr221-2-thumb.jpg" alt="Denim Jeans"
+        style="width:100%">
+      <h1 style="font-size: 16px ;">Tailored Jeans</h1>
+      <p class="price" style="font-size: 16px; ">$19.99</p>
+      <p style="font-size: 16px;"><button>Add to Cart</button></p>
+    </div>
+    <div class="card" style="display: inline-block; text-align: center;">
+      <img id ="pic3" src="https://canifa.s3.amazonaws.com/media/catalog/product/8/t/8tw19w012-sk010--thumb_1_-_copy.jpg"
+        alt="Denim Jeans" style="width:100%">
+      <h1 style="font-size: 16px ;">Tailored Jeans</h1>
+      <p class="price" style="font-size: 16px; ">$19.99</p>
+      <p style="font-size: 16px;"><button>Add to Cart</button></p>
+    </div>
+
+  </div>
+
+  <style>
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: 20px;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .price {
+      color: grey;
+      font-size: 22px;
+    }
+
+    .card button {
+      border: none;
+      outline: 0;
+      padding: 10px;
+      color: white;
+      background-color: black;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+
+    .card button:hover {
+      opacity: 0.8;
+
+    }
+  </style>
+
+   <!-- KIDS -->
+
+  <div class="container" style="margin: 20px" ;>
+    <div class="jumbotron" style="text-align: center; ">
+      <h1 style="font-size: 40px; font-weight: bold;"><a href="https://www.google.com">KIDS</a></h1>
+    </div>
+  </div>
+
+  <div class="products" style="text-align: center; padding: 30px;">
+
+    <div class="card" style="display: inline-block; text-align: center;">
+      <img id ="photo1" src="https://canifa.s3.amazonaws.com/media/catalog/product/cache_generated/620x/1tw20w001-sy151-1-thumb-.jpg"
+        alt="Denim Jeans" style="width:100%">
+      <h1 style="font-size: 16px ;">Tailored Jeans</h1>
+      <p class="price" style="font-size: 16px; ">$19.99</p>
+      <p style="font-size: 16px;"><button>Add to Cart</button></p>
+    </div>
+    <div class="card" style="display: inline-block; text-align: center;">
+      <img id ="photo2" src="https://canifa.s3.amazonaws.com/media/catalog/product/cache_generated/620x/2tw20w013-sb592-3-thumb-.jpg"
+        alt="Denim Jeans" style="width:100%">
+      <h1 style="font-size: 16px ;">Tailored Jeans</h1>
+      <p class="price" style="font-size: 16px; ">$19.99</p>
+      <p style="font-size: 16px;"><button>Add to Cart</button></p>
+    </div>
+    <div class="card" style="display: inline-block; text-align: center;">
+      <img  id ="photo3" src="https://canifa.s3.amazonaws.com/media/catalog/product/1/o/1ot18c024-sk010-33.jpg" alt="Denim Jeans"
+        style="width:100%">
+      <h1 style="font-size: 16px ;">Tailored Jeans</h1>
+      <p class="price" style="font-size: 16px; ">$19.99</p>
+      <p style="font-size: 16px;"><button>Add to Cart</button></p>
+    </div>
+
+  </div>
+
+
+  <hr>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Style inputs */
+    input[type=text],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+    /* Style the container/contact section */
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    /* Create two columns that float next to eachother */
+    .column {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+
+      .column,
+      input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+  </style>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Leave us a message:</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div id="map" style="width:100%;height:500px"></div>
+        </div>
+        <div class="column">
+          <form action="action_page.php.html">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Vietnam</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Initialize google maps
+      function myMap() {
+        var myCenter = new google.maps.LatLng(51.508742, -0.120850);
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = { center: myCenter, zoom: 12 };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({ position: myCenter });
+        marker.setMap(map);
+      }
+    </script>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+    <!--
+        To use this code on your website, get a free API key from Google.
+        Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+        -->
+
+  </body>
+
+  <footer style="text-align: center;">&copy; Copyright 2020 HTML.am</footer>
+  
+  <script src="index.js"></script>
+
 </body>
+
 </html>
